@@ -4,6 +4,7 @@ html {
 
 body {
   line-height: 1.6;
+  margin: 0px;
 }
 
 .content-box p {
@@ -25,7 +26,11 @@ body {
 .bg-image {
   background-image:url('https://source.unsplash.com/random/');
   background-size:cover;
+}
+
+.banner-box {
   padding: 120px 0;
+  backdrop-filter: blur(10px);
 }
 
 .font-italic {
